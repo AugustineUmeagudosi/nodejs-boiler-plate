@@ -5,6 +5,7 @@
 1. run `npm install` to install dependencies.<br>
 
 2. create a `.env` file and add values for the following fields according to your environment <br>
+    `NODE_ENV=development` <br>
     `PORT=5000` <br>
     `JWT_SECRET=`
 

@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A structured boilerplate with in-built MySql database connection to get you started with your node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustineUmeagudosi/nodejs-boiler-plate.git"
+  },
+  "author": "Augustine Umeagudosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustineUmeagudosi/nodejs-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/AugustineUmeagudosi/nodejs-boiler-plate#readme"
+}

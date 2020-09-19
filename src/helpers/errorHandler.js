@@ -1,7 +1,7 @@
-const winston = require('winston');
+// const winston = require('winston');
 
 module.exports = function (err, req, res, next) {
-    winston.error(err);
+    // winston.error(err);
     console.log(err.message);
 
     if(err.name === 'CastError') {

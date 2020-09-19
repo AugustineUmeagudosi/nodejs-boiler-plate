@@ -1,4 +1,3 @@
-// const { Account, AccountSerialNumber , Customer} = require("../models");
 const User = require("../../models/user");
 const sequelize = require("sequelize");
 

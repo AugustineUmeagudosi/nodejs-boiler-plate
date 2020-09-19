@@ -8,7 +8,6 @@ if (!process.env.JWT_SECRET) { console.error('FATAL ERROR: jwtPrivateKey is not 
 
 app.set('view engine', 'pug');
 
-// require('./startup/logging')();
 require('./startup/securityPackages')(app);
 require('./startup/db_connection');
 require('./startup/router')(app);

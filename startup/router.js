@@ -8,7 +8,7 @@ module.exports = function (app) {
     app.use(express.urlencoded({ limit: '5mb', extended: true }));
 
     app.use('/', express.Router().get("/api/welcome", (req, res) => res.status(200).json({ 
-        message: "Hello, welcome to City Events API, haha!" })
+        message: "Hello, welcome to nodejs boilerplate API, haha!" })
     ));
     app.use('/api/users', userRouter);
 

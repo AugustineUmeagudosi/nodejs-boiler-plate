@@ -6,6 +6,12 @@ const sequelize = require("sequelize");
 const user = {
 
     //User registration
+    users: async (req, res) => {
+
+        res.send("No users registered yet.");
+    },
+    
+    //User registration
     registration: async (req, res) => {
 
         res.send("registered!");

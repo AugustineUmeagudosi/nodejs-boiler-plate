@@ -15,6 +15,6 @@ module.exports = function () {
         throw ex;
     });
 
-    //Logging errors globally
+    //Logs errors globally
     winston.add(winston.transports.File, { filename: 'logfile.log' });
 };
